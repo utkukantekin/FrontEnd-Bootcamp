@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Utku Kantekin" />
+    <meta name="description" content="html body of to-do list" />
+    <title>ToDo</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <link rel="shortcut icon" href="/util/icons/todo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/todo.css" />
+  </head>
+  <body>
+    <!-- Codes Start-->
+
+    <header></header>
+
+    <!-- New ToDo-->
+    <div class="card" id="newTodo">
+      <form action="#" method="get">
+        <label for="newTodo" style="color: rgb(103, 94, 94, 0.9)">
+          <big><b>New ToDo:</b></big> </label
+        ><br />
+        <input type="text" name="newTodo" id="input" />
+        <input type="submit" value="Add" class="button addButton"/
+        style="right:1%; bottom: 20%;">
+      </form>
+    </div>
+    <hr />
+
+    <!-- Current ToDos -->
+    <div class="card">
+      <div class="task">
+        <input type="checkbox" name="todoCheck" id="todoCheck" />
+        <p style="display: inline-block">Lorem, ipsum.</p>
+        <button class="button addButton"><i class="fa-solid fa-pen"></i></button
+        ><button class="button deleteButton">
+          <i class="fa-solid fa-trash-can"></i>
+        </button>
+
+        <!-- Form For Editing Current ToDos. Needs a Relation With Edit Button-->
+        <form action="" style="display: none">
+          <label for="editedTodo">Edit:</label>
+          <input type="text" name="editedTodo" id="editedTodo" />
+          <input type="submit" value="Save" />
+        </form>
+      </div>
+      <div class="task">
+        <input type="checkbox" name="todoCheck" id="todoCheck" />
+        <p style="display: inline-block">Lorem, ipsum dolor.</p>
+        <button class="button addButton"><i class="fa-solid fa-pen"></i></button
+        ><button class="button deleteButton">
+          <i class="fa-solid fa-trash-can"></i>
+        </button>
+      </div>
+      <div class="task">
+        <input type="checkbox" name="todoCheck" id="todoCheck" />
+        <p style="display: inline-block">Lorem ipsum dolor sit.</p>
+        <button class="button addButton"><i class="fa-solid fa-pen"></i></button
+        ><button class="button deleteButton">
+          <i class="fa-solid fa-trash-can"></i>
+        </button>
+      </div>
+    </div>
+
+    <footer style="position: absolute; bottom: 5px">
+      <!-- Citation -->
+      <div class="citations">
+        <a href="https://www.flaticon.com/free-icons/list" title="list icons"
+          >List icons created by Royyan Wijaya - Flaticon</a
+        >
+      </div>
+    </footer>
+    <!-- Codes End -->
+  </body>
+</html>

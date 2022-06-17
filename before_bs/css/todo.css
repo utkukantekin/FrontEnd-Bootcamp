@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    height: 20vh;
+    background-color: rgb(255, 51, 174);
+    margin: 0;
+}
+
+hr{
+    width: 80vw;
+}
+
+#newTodo {
+    margin: -3% 30% 3% 25% ;
+    padding: 2vh;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.card{
+    margin: 3% 30% 3% 25% ;
+    width: 50%;
+    box-shadow: .5vw .5vh .5vw .5vw rgb(128, 128, 128, .3);
+    position: relative;
+}
+
+#input{
+    margin: 1% 3% 1% 0%;
+    width: 83%;
+    height: 4vh;
+    border: 1px solid rgb(92, 78, 78, .7 );
+    box-sizing: border-box;
+}
+
+#input:hover{
+    box-shadow: 1px 1px 1px 2px rgb(255, 51, 174 , .4);
+}
+
+input:focus{
+    outline: 2px solid rgb(255, 51, 174 , .4);
+
+}
+
+.task{
+    font: inherit;
+
+}
+
+.button{
+    padding: 1.1vh 1.5vw;
+    width: 13%;
+    font-size: 1.1vw;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 1%;
+    position: absolute;
+
+}
+
+.addButton{
+    background-color: rgb(255, 51, 174);
+    color: rgb(255, 255, 255);
+    border: 0;
+    right: 15%;
+}
+
+.addButton:hover{
+    box-shadow: 1px 1px 1px 2px rgb(255, 51, 174 , .4);
+    text-shadow: 1px 1px 1px 2px rgb(255, 255, 255);
+}
+
+
+.deleteButton{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 51, 174);
+    border: 1px solid rgb(255, 51, 174);
+    right: 1%;
+}
+
+.deleteButton:hover{
+    box-shadow: 1px 1px 1px 2px rgb(255, 51, 174 , .4);
+    text-shadow: 1px 1px 1px 2px rgb(255, 51, 174, .4);
+}
+
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    appearance: none;
+    font: inherit;
+    color: currentColor;
+    width: 1em;
+    height: 1em;
+    border: .1em solid rgb(108, 104, 104, .5);
+    border-radius: 100%;
+    margin-bottom: -.1em;
+    place-content: center;
+
+}
+
+input[type="checkbox"]:checked{
+    background-color: rgb(255, 51, 174);
+}
+
+input[type="checkbox"]:hover{
+    box-shadow: 1px 1px 1px 2px rgb(255, 51, 174 , .4);
+}
+
+.task p{
+    color: rgb(103, 94, 94, .8);
+}

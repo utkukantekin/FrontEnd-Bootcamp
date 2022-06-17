@@ -1,0 +1,61 @@
+.card{
+    margin: 1% 27.5% 3% 27.5% ;
+    padding: 2% 5%;
+    width: 45%;
+    background-color: rgb(249, 249, 251);
+    box-shadow: .5vw .5vh .5vw .5vw rgb(128, 128, 128, .3);
+    position: relative;
+    box-sizing: border-box;
+}
+
+.link{
+    display: inline-block;
+    width: 25vw;
+    height: 5vh;
+    padding: 1vh 3vw;
+    margin-bottom: 1vh;
+    box-sizing: border-box;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+#twitter{
+    background-color: rgb(67 174 235);
+}
+
+#facebook{
+    background-color: rgb(64 94 156);
+}
+a i{
+    margin-right: .8em;
+}
+
+input{
+    margin: 1vh 0vh;
+    width: 20vw;
+    height: 4vh;
+    box-sizing: border-box;
+}
+
+select{
+    width: 20vw;
+    height: 4vh;
+    box-sizing: border-box;
+}
+.form i{
+    height: 4vh;
+    background-color: rgb(233, 236, 239);
+    padding: 1%;
+    box-sizing: border-box;
+    border: 1px solid rgb(167, 170, 173);
+    width: 5vw;
+    vertical-align: middle;
+
+}
+
+.button{
+    width: 12.5vw;
+}
